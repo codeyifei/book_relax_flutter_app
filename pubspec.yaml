@@ -1,0 +1,35 @@
+name: book_relax_flutter_app
+description: 书悠App，一个跨平台的小说阅读软件。
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  dio: ^5.0.3
+  easy_dialog: ^1.1.1
+  json_annotation: ^4.8.0
+  shared_preferences: ^2.0.20
+  flutter_config: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.6.1
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/background.jpg
+    - assets/images/default_avatar.png
